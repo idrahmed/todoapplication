@@ -1,0 +1,104 @@
+.dashboard {
+  background-color: #1e2124;
+  min-height: 100vh;
+}
+.body {
+  
+  padding-bottom: 50px;
+  padding-top: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 740px;
+  align-content: flex-start;
+}
+
+.list {
+  color: rgb(255, 255, 255);
+  height: fit-content;
+  background-color: #282b30;
+  display: flex;
+  align-items: center;
+  border-radius: 6px;
+  margin: 10px;
+  padding: 15px;
+  font-size: 14px;
+  width: 350px;
+}
+
+.list_titles {
+  margin-left: 20px;
+}
+
+.list_titles > h4 {
+  margin-top: 10px;
+  font-weight: 400;
+  color: rgb(190, 188, 188);
+}
+
+.list_titles > h2 {
+  font-weight: 500;
+}
+
+.list:hover {
+  background-color: #36393e;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+}
+
+.new_collection {
+  padding: 0 !important;
+}
+
+.MuiInputLabel-root {
+  color: white !important;
+}
+
+.MuiInputBase-root {
+  color: white !important;
+  background-color: #1e2124 !important;
+  border: 2px solid #54595d;
+}
+
+.Mui-focused {
+  background-color: #282b30 !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+.first_list {
+  color: white;
+  width: 100%;
+  margin: 20px 10px;
+  font-weight: 500;
+}
+
+.skeleton {
+  height: 65px;
+  width: 350px !important;
+  border-radius: 6px;
+  margin: 10px;
+  padding: 15px;
+}
+
+@media (max-width: 771px) {
+  .body {
+    padding-top: 15px;
+    width: 90vw;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .list {
+    width: 90vw;
+    margin: 6px;
+    font-size: 12px;
+    
+  }
+  .skeleton {
+    width: 90vw !important;
+    margin: 6px;
+  }
+ 
+}

@@ -1,0 +1,88 @@
+.todos_page {
+    background-color: #1e2124;
+}
+
+.top_row h2 {
+    color: white;
+}
+
+.todos_page h3 {
+    color: white;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.todo_body {
+    min-height: 100vh;
+    width: 750px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.top_row {
+    display: flex;
+    color: rgb(179, 174, 174);
+    padding-top: 90px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.delete_col:hover {
+    color: white;
+}
+
+.main {
+    margin-top: 40px;
+}
+
+.todo{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    background-color: #282b30;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    width: 750px;
+}
+
+.todo:hover {
+    cursor: pointer;
+}
+
+.MuiCheckbox-root {
+    color: white  !important;
+}
+
+.new_todo {
+    width: 750px;
+    padding: 10px 0;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(179, 174, 174);
+}
+
+a:hover {
+    color: white;
+}
+
+
+
+@media (max-width: 771px) {
+
+.top_row {
+    padding-top: 20px;
+}
+
+.todo_body {
+    width: 90vw;
+}
+.todo {
+    width: 90vw;
+}
+.new_todo {
+    width: 90vw;
+}
+}
